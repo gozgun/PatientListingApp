@@ -10,7 +10,7 @@ Features
 
 # Instructions
 
-This app uses Scala, SBT, Play Framework and HTML.
+This app uses Scala, SBT, Play Framework, Akka HTTP server and HTML.
 
 The infrastucture of the app is taken from play-scala-hello-world-tutorial which can be found [here](https://github.com/playframework/play-samples/tree/2.8.x/play-scala-hello-world-tutorial)
 
