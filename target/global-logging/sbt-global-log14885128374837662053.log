@@ -1,0 +1,197 @@
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(run, Some(2794415f-4923-485f-a988-998deef1e214), Some(CommandSource(console0)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mEvaluating tasks: Compile / run[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: Signal, check cycles: false, forcegc: true[0m
+[0m[[0m[0minfo[0m] [0m[0mUpdating [0m
+[0m[[0m[0minfo[0m] [0m[0mResolved  dependencies[0m
+[0m[[0m[0minfo[0m] [0m[0mFetching artifacts of [0m
+[0m[[0m[0minfo[0m] [0m[0mFetched artifacts of [0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: Signal, check cycles: false, forcegc: true[0m
+[0m[[0m[0minfo[0m] [0m[0mcompiling 11 Scala sources and 1 Java source to /home/gunes/Desktop/project/play-samples/play-scala-hello-world-tutorial/target/scala-2.13/classes ...[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: Signal, check cycles: false, forcegc: true[0m
+[0m[[0m[0mdebug[0m] [0m[0mExporting web-assets:play-scala-hello-world-tutorial[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: Signal, check cycles: false, forcegc: true[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: Signal, check cycles: false, forcegc: true[0m
+[0m[[0m[0minfo[0m] [0m[0mcompiling 1 Scala source to /home/gunes/Desktop/project/play-samples/play-scala-hello-world-tutorial/target/scala-2.13/classes ...[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: Signal, check cycles: false, forcegc: true[0m
+[0m[[0m[0mdebug[0m] [0m[0mExporting web-assets:play-scala-hello-world-tutorial[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: Signal, check cycles: false, forcegc: true[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: Signal, check cycles: false, forcegc: true[0m
+[0m[[0m[0minfo[0m] [0m[0mcompiling 2 Scala sources to /home/gunes/Desktop/project/play-samples/play-scala-hello-world-tutorial/target/scala-2.13/classes ...[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: Signal, check cycles: false, forcegc: true[0m
+[0m[[0m[0mdebug[0m] [0m[0mExporting web-assets:play-scala-hello-world-tutorial[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: Signal, check cycles: false, forcegc: true[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: Signal, check cycles: false, forcegc: true[0m
+[0m[[0m[0minfo[0m] [0m[0mcompiling 1 Scala source to /home/gunes/Desktop/project/play-samples/play-scala-hello-world-tutorial/target/scala-2.13/classes ...[0m
+[0m[[0m[31merror[0m] [0m[0m/home/gunes/Desktop/project/play-samples/play-scala-hello-world-tutorial/app/controllers/HomeController.scala:29:27: value args of type Map[String,Seq[String]] does not take type parameters.[0m
+[0m[[0m[31merror[0m] [0m[0m      val firstName = args["firstName"].head[0m
+[0m[[0m[31merror[0m] [0m[0m                          ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/gunes/Desktop/project/play-samples/play-scala-hello-world-tutorial/app/controllers/HomeController.scala:30:26: value args of type Map[String,Seq[String]] does not take type parameters.[0m
+[0m[[0m[31merror[0m] [0m[0m      val lastName = args["lastName"].head[0m
+[0m[[0m[31merror[0m] [0m[0m                         ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/gunes/Desktop/project/play-samples/play-scala-hello-world-tutorial/app/controllers/HomeController.scala:31:27: value args of type Map[String,Seq[String]] does not take type parameters.[0m
+[0m[[0m[31merror[0m] [0m[0m      val birthdate = args["birthdate"].head[0m
+[0m[[0m[31merror[0m] [0m[0m                          ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/gunes/Desktop/project/play-samples/play-scala-hello-world-tutorial/app/controllers/HomeController.scala:32:29: value args of type Map[String,Seq[String]] does not take type parameters.[0m
+[0m[[0m[31merror[0m] [0m[0m      val phoneNumber = args["phoneNumber"].head[0m
+[0m[[0m[31merror[0m] [0m[0m                            ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/gunes/Desktop/project/play-samples/play-scala-hello-world-tutorial/app/controllers/HomeController.scala:33:23: value args of type Map[String,Seq[String]] does not take type parameters.[0m
+[0m[[0m[31merror[0m] [0m[0m      val email = args["email"].head[0m
+[0m[[0m[31merror[0m] [0m[0m                      ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/gunes/Desktop/project/play-samples/play-scala-hello-world-tutorial/app/controllers/HomeController.scala:34:26: value args of type Map[String,Seq[String]] does not take type parameters.[0m
+[0m[[0m[31merror[0m] [0m[0m      val comments = args["comments"][0m
+[0m[[0m[31merror[0m] [0m[0m                         ^[0m
+[0m[[0m[31merror[0m] [0m[0m6 errors found[0m
+[0m[[0m[0mdebug[0m] [0m[0mForcing garbage collection...[0m
+[0m[[0m[31merror[0m] [0m[0m(Compile / [31mcompileIncremental[0m) Compilation failed[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: Signal, check cycles: false, forcegc: true[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: Signal, check cycles: false, forcegc: true[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: Signal, check cycles: false, forcegc: true[0m
+[0m[[0m[0minfo[0m] [0m[0mcompiling 1 Scala source to /home/gunes/Desktop/project/play-samples/play-scala-hello-world-tutorial/target/scala-2.13/classes ...[0m
+[0m[[0m[31merror[0m] [0m[0m/home/gunes/Desktop/project/play-samples/play-scala-hello-world-tutorial/app/controllers/HomeController.scala:29:27: value args of type Map[String,Seq[String]] does not take type parameters.[0m
+[0m[[0m[31merror[0m] [0m[0m      val firstName = args["firstName"].head[0m
+[0m[[0m[31merror[0m] [0m[0m                          ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/gunes/Desktop/project/play-samples/play-scala-hello-world-tutorial/app/controllers/HomeController.scala:30:26: value args of type Map[String,Seq[String]] does not take type parameters.[0m
+[0m[[0m[31merror[0m] [0m[0m      val lastName = args["lastName"].head[0m
+[0m[[0m[31merror[0m] [0m[0m                         ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/gunes/Desktop/project/play-samples/play-scala-hello-world-tutorial/app/controllers/HomeController.scala:31:27: value args of type Map[String,Seq[String]] does not take type parameters.[0m
+[0m[[0m[31merror[0m] [0m[0m      val birthdate = args["birthdate"].head[0m
+[0m[[0m[31merror[0m] [0m[0m                          ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/gunes/Desktop/project/play-samples/play-scala-hello-world-tutorial/app/controllers/HomeController.scala:32:29: value args of type Map[String,Seq[String]] does not take type parameters.[0m
+[0m[[0m[31merror[0m] [0m[0m      val phoneNumber = args["phoneNumber"].head[0m
+[0m[[0m[31merror[0m] [0m[0m                            ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/gunes/Desktop/project/play-samples/play-scala-hello-world-tutorial/app/controllers/HomeController.scala:33:23: value args of type Map[String,Seq[String]] does not take type parameters.[0m
+[0m[[0m[31merror[0m] [0m[0m      val email = args["email"].head[0m
+[0m[[0m[31merror[0m] [0m[0m                      ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/gunes/Desktop/project/play-samples/play-scala-hello-world-tutorial/app/controllers/HomeController.scala:34:26: value args of type Map[String,Seq[String]] does not take type parameters.[0m
+[0m[[0m[31merror[0m] [0m[0m      val comments = args["comments"][0m
+[0m[[0m[31merror[0m] [0m[0m                         ^[0m
+[0m[[0m[31merror[0m] [0m[0m6 errors found[0m
+[0m[[0m[31merror[0m] [0m[0m(Compile / [31mcompileIncremental[0m) Compilation failed[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: Signal, check cycles: false, forcegc: true[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: Signal, check cycles: false, forcegc: true[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: Signal, check cycles: false, forcegc: true[0m
+[0m[[0m[0minfo[0m] [0m[0mcompiling 1 Scala source to /home/gunes/Desktop/project/play-samples/play-scala-hello-world-tutorial/target/scala-2.13/classes ...[0m
+[0m[[0m[0minfo[0m] [0m[0mcompiling 1 Scala source to /home/gunes/Desktop/project/play-samples/play-scala-hello-world-tutorial/target/scala-2.13/classes ...[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: Signal, check cycles: false, forcegc: true[0m
+[0m[[0m[0mdebug[0m] [0m[0mExporting web-assets:play-scala-hello-world-tutorial[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: Signal, check cycles: false, forcegc: true[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: Signal, check cycles: false, forcegc: true[0m
+[0m[[0m[0minfo[0m] [0m[0mcompiling 3 Scala sources to /home/gunes/Desktop/project/play-samples/play-scala-hello-world-tutorial/target/scala-2.13/classes ...[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: Signal, check cycles: false, forcegc: true[0m
+[0m[[0m[0mdebug[0m] [0m[0mExporting web-assets:play-scala-hello-world-tutorial[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: Signal, check cycles: false, forcegc: true[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: Signal, check cycles: false, forcegc: true[0m
+[0m[[0m[0minfo[0m] [0m[0mcompiling 4 Scala sources and 1 Java source to /home/gunes/Desktop/project/play-samples/play-scala-hello-world-tutorial/target/scala-2.13/classes ...[0m
+[0m[[0m[0minfo[0m] [0m[0mcompiling 2 Scala sources to /home/gunes/Desktop/project/play-samples/play-scala-hello-world-tutorial/target/scala-2.13/classes ...[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: Signal, check cycles: false, forcegc: true[0m
+[0m[[0m[0mdebug[0m] [0m[0mExporting web-assets:play-scala-hello-world-tutorial[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: Signal, check cycles: false, forcegc: true[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: Signal, check cycles: false, forcegc: true[0m
+[0m[[0m[0minfo[0m] [0m[0mcompiling 1 Scala source to /home/gunes/Desktop/project/play-samples/play-scala-hello-world-tutorial/target/scala-2.13/classes ...[0m
+[0m[[0m[31merror[0m] [0m[0m/home/gunes/Desktop/project/play-samples/play-scala-hello-world-tutorial/app/controllers/HomeController.scala:35:10: value $ is not a member of StringContext[0m
+[0m[[0m[31merror[0m] [0m[0m      Ok($"$firstName $lastName user has been added.")[0m
+[0m[[0m[31merror[0m] [0m[0m         ^[0m
+[0m[[0m[31merror[0m] [0m[0mone error found[0m
+[0m[[0m[31merror[0m] [0m[0m(Compile / [31mcompileIncremental[0m) Compilation failed[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: Signal, check cycles: false, forcegc: true[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: Signal, check cycles: false, forcegc: true[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: Signal, check cycles: false, forcegc: true[0m
+[0m[[0m[0minfo[0m] [0m[0mcompiling 1 Scala source to /home/gunes/Desktop/project/play-samples/play-scala-hello-world-tutorial/target/scala-2.13/classes ...[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: Signal, check cycles: false, forcegc: true[0m
+[0m[[0m[0mdebug[0m] [0m[0mExporting web-assets:play-scala-hello-world-tutorial[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: Signal, check cycles: false, forcegc: true[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: Signal, check cycles: false, forcegc: true[0m
+[0m[[0m[0minfo[0m] [0m[0mcompiling 5 Scala sources and 1 Java source to /home/gunes/Desktop/project/play-samples/play-scala-hello-world-tutorial/target/scala-2.13/classes ...[0m
+[0m[[0m[31merror[0m] [0m[0m/home/gunes/Desktop/project/play-samples/play-scala-hello-world-tutorial/app/controllers/PatientController.scala:19:48: Auto-application to `()` is deprecated. Supply the empty argument list `()` explicitly to invoke method index,[0m
+[0m[[0m[31merror[0m] [0m[0mor remove the empty argument list from its definition (Java-defined methods are exempt).[0m
+[0m[[0m[31merror[0m] [0m[0mIn Scala 3, an unapplied method like this will be eta-expanded into a function.[0m
+[0m[[0m[31merror[0m] [0m[0m    }.getOrElse(Redirect(routes.HomeController.index))[0m
+[0m[[0m[31merror[0m] [0m[0m                                               ^[0m
+[0m[[0m[31merror[0m] [0m[0mone error found[0m
+[0m[[0m[0mdebug[0m] [0m[0mForcing garbage collection...[0m
+[0m[[0m[31merror[0m] [0m[0m(Compile / [31mcompileIncremental[0m) Compilation failed[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: Signal, check cycles: false, forcegc: true[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: Signal, check cycles: false, forcegc: true[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: Signal, check cycles: false, forcegc: true[0m
+[0m[[0m[0minfo[0m] [0m[0mcompiling 5 Scala sources and 1 Java source to /home/gunes/Desktop/project/play-samples/play-scala-hello-world-tutorial/target/scala-2.13/classes ...[0m
+[0m[[0m[0minfo[0m] [0m[0mcompiling 4 Scala sources to /home/gunes/Desktop/project/play-samples/play-scala-hello-world-tutorial/target/scala-2.13/classes ...[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: Signal, check cycles: false, forcegc: true[0m
+[0m[[0m[0mdebug[0m] [0m[0mExporting web-assets:play-scala-hello-world-tutorial[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: Signal, check cycles: false, forcegc: true[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: Signal, check cycles: false, forcegc: true[0m
+[0m[[0m[0minfo[0m] [0m[0mcompiling 1 Scala source to /home/gunes/Desktop/project/play-samples/play-scala-hello-world-tutorial/target/scala-2.13/classes ...[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: Signal, check cycles: false, forcegc: true[0m
+[0m[[0m[0mdebug[0m] [0m[0mExporting web-assets:play-scala-hello-world-tutorial[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: Signal, check cycles: false, forcegc: true[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: Signal, check cycles: false, forcegc: true[0m
+[0m[[0m[0minfo[0m] [0m[0mcompiling 1 Scala source to /home/gunes/Desktop/project/play-samples/play-scala-hello-world-tutorial/target/scala-2.13/classes ...[0m
+[0m[[0m[31merror[0m] [0m[0m/home/gunes/Desktop/project/play-samples/play-scala-hello-world-tutorial/app/models/PatientMemoryModel.scala:7:13: expected start of definition[0m
+[0m[[0m[31merror[0m] [0m[0m    private Patients = mutable.Map[String, String, LocalDate, String, String, String]()[0m
+[0m[[0m[31merror[0m] [0m[0m            ^[0m
+[0m[[0m[31merror[0m] [0m[0mone error found[0m
+[0m[[0m[0mdebug[0m] [0m[0mForcing garbage collection...[0m
+[0m[[0m[31merror[0m] [0m[0m(Compile / [31mcompileIncremental[0m) Compilation failed[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: Signal, check cycles: false, forcegc: true[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: Signal, check cycles: false, forcegc: true[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: Signal, check cycles: false, forcegc: true[0m
+[0m[[0m[0minfo[0m] [0m[0mcompiling 1 Scala source to /home/gunes/Desktop/project/play-samples/play-scala-hello-world-tutorial/target/scala-2.13/classes ...[0m
+[0m[[0m[31merror[0m] [0m[0m/home/gunes/Desktop/project/play-samples/play-scala-hello-world-tutorial/app/models/PatientMemoryModel.scala:7:39: wrong number of type parameters for method apply: [K, V](elems: (K, V)*): scala.collection.mutable.Map[K,V] in class Delegate[0m
+[0m[[0m[31merror[0m] [0m[0m    private val Patients = mutable.Map[String, String, LocalDate, String, String, String]()[0m
+[0m[[0m[31merror[0m] [0m[0m                                      ^[0m
+[0m[[0m[31merror[0m] [0m[0mone error found[0m
+[0m[[0m[31merror[0m] [0m[0m(Compile / [31mcompileIncremental[0m) Compilation failed[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: Signal, check cycles: false, forcegc: true[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: Signal, check cycles: false, forcegc: true[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: Signal, check cycles: false, forcegc: true[0m
+[0m[[0m[0minfo[0m] [0m[0mcompiling 1 Scala source to /home/gunes/Desktop/project/play-samples/play-scala-hello-world-tutorial/target/scala-2.13/classes ...[0m
+[0m[[0m[31merror[0m] [0m[0m/home/gunes/Desktop/project/play-samples/play-scala-hello-world-tutorial/app/models/PatientMemoryModel.scala:7:61: wrong number of type arguments for Map, should be 2[0m
+[0m[[0m[31merror[0m] [0m[0m    private val Patients = mutable.Map[Map[String, String], Map[LocalDate, String, String, String]]()[0m
+[0m[[0m[31merror[0m] [0m[0m                                                            ^[0m
+[0m[[0m[31merror[0m] [0m[0mone error found[0m
+[0m[[0m[31merror[0m] [0m[0m(Compile / [31mcompileIncremental[0m) Compilation failed[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: Signal, check cycles: false, forcegc: true[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: Signal, check cycles: false, forcegc: true[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: Signal, check cycles: false, forcegc: true[0m
+[0m[[0m[0minfo[0m] [0m[0mcompiling 1 Scala source to /home/gunes/Desktop/project/play-samples/play-scala-hello-world-tutorial/target/scala-2.13/classes ...[0m
+[0m[[0m[31merror[0m] [0m[0m/home/gunes/Desktop/project/play-samples/play-scala-hello-world-tutorial/app/models/PatientMemoryModel.scala:7:61: identifier expected but '[' found.[0m
+[0m[[0m[31merror[0m] [0m[0m    private val Patients = mutable.Map[Map[String, String], [LocalDate, String, String, String]]()[0m
+[0m[[0m[31merror[0m] [0m[0m                                                            ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/gunes/Desktop/project/play-samples/play-scala-hello-world-tutorial/app/models/PatientMemoryModel.scala:9:1: ']' expected.[0m
+[0m[[0m[31merror[0m] [0m[0m    def addPatient(firstname: String, lastName: String, birthdate: LocalDate, phoneNumber: String, email: String, comments: String) : Boolean = ???[0m
+[0m[[0m[31merror[0m] [0m[0m^[0m
+[0m[[0m[31merror[0m] [0m[0mtwo errors found[0m
+[0m[[0m[31merror[0m] [0m[0m(Compile / [31mcompileIncremental[0m) Compilation failed[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: Signal, check cycles: false, forcegc: true[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: Signal, check cycles: false, forcegc: true[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: Signal, check cycles: false, forcegc: true[0m
+[0m[[0m[0minfo[0m] [0m[0mcompiling 1 Scala source to /home/gunes/Desktop/project/play-samples/play-scala-hello-world-tutorial/target/scala-2.13/classes ...[0m
+[0m[[0m[31merror[0m] [0m[0m/home/gunes/Desktop/project/play-samples/play-scala-hello-world-tutorial/app/models/PatientMemoryModel.scala:7:61: wrong number of type arguments for List, should be 1[0m
+[0m[[0m[31merror[0m] [0m[0m    private val Patients = mutable.Map[Map[String, String], List[LocalDate, String, String, String]]()[0m
+[0m[[0m[31merror[0m] [0m[0m                                                            ^[0m
+[0m[[0m[31merror[0m] [0m[0mone error found[0m
+[0m[[0m[31merror[0m] [0m[0m(Compile / [31mcompileIncremental[0m) Compilation failed[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: Signal, check cycles: false, forcegc: true[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: Signal, check cycles: false, forcegc: true[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: Signal, check cycles: false, forcegc: true[0m
+[0m[[0m[0minfo[0m] [0m[0mcompiling 1 Scala source to /home/gunes/Desktop/project/play-samples/play-scala-hello-world-tutorial/target/scala-2.13/classes ...[0m
+[0m[[0m[31merror[0m] [0m[0m/home/gunes/Desktop/project/play-samples/play-scala-hello-world-tutorial/app/models/PatientMemoryModel.scala:7:61: wrong number of type arguments for Seq, should be 1[0m
+[0m[[0m[31merror[0m] [0m[0m    private val Patients = mutable.Map[Map[String, String], Seq[LocalDate, String, String, String]]()[0m
+[0m[[0m[31merror[0m] [0m[0m                                                            ^[0m
+[0m[[0m[31merror[0m] [0m[0mone error found[0m
+[0m[[0m[31merror[0m] [0m[0m(Compile / [31mcompileIncremental[0m) Compilation failed[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: Signal, check cycles: false, forcegc: true[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: Signal, check cycles: false, forcegc: true[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: Signal, check cycles: false, forcegc: true[0m
+[0m[[0m[0minfo[0m] [0m[0mcompiling 1 Scala source to /home/gunes/Desktop/project/play-samples/play-scala-hello-world-tutorial/target/scala-2.13/classes ...[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: Signal, check cycles: false, forcegc: true[0m
+[0m[[0m[0mdebug[0m] [0m[0mExporting web-assets:play-scala-hello-world-tutorial[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: Signal, check cycles: false, forcegc: true[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: Signal, check cycles: false, forcegc: true[0m
+[0m[[0m[0minfo[0m] [0m[0mcompiling 1 Scala source to /home/gunes/Desktop/project/play-samples/play-scala-hello-world-tutorial/target/scala-2.13/classes ...[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: Signal, check cycles: false, forcegc: true[0m
+[0m[[0m[0mdebug[0m] [0m[0mExporting web-assets:play-scala-hello-world-tutorial[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: Signal, check cycles: false, forcegc: true[0m
+[0m[[0m[0mdebug[0m] [0m[0mForcing garbage collection...[0m
+[0m[[0m[32msuccess[0m] [0m[0mTotal time: 6719 s (01:51:59), completed May 29, 2023, 12:36:24 AM[0m
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(shell, None, None)[0m
+[0m[[0m[0minfo[0m] [0m[0mshutting down sbt server[0m

@@ -1,0 +1,85 @@
+@(patients: List[models.Product])
+
+@main("Patient Listing Application") {
+@defining(play.core.PlayVersion.current) { version =>
+
+<section id="content">
+  <div class="wrapper doc">
+    <article>
+      <h1>Add a New Patient</h1>
+      <form action="@routes.PatientController.newPatient()" method="POST">
+        <label for="firstName">First Name:</label>
+        <input type="text" id="firstName" name="firstName" required><br>
+      
+        <label for="lastName">Last Name:</label>
+        <input type="text" id="lastName" name="lastName" required><br>
+
+        <label for="birthdate">Birthdate:</label>
+        <input type="date" id="birthdate" name="birthdate" required><br>
+
+        <label for="phoneNumber">Mobile phone number:</label>
+        <input type="text" id="phoneNumber" name="phoneNumber" required><br>
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required><br>
+
+        <label for="comments">Comments:</label>
+        <input type="text" id="comments" name="comments"><br><br>
+      
+        <button type="submit">Add Patient</button>
+        <input type="reset">
+      </form>
+      
+      <br>
+
+      <h1>Filter Patients</h1>
+
+      <form action="@routes.PatientController.clearFilters()" method="POST">     
+        <button type="submit">Clear All Filters</button>
+      </form>
+      <h2>By Name</h2>
+      <form action="@routes.PatientController.filterByFullName()" method="POST">
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name"><br><br>
+      
+        <button type="submit">Filter Patients</button>
+        <input type="reset">
+      </form>
+
+      <h2>By Age</h2>
+      <form action="@routes.PatientController.filterByAge()" method="POST">
+        <label for="age">Age:</label>
+        <input type="number" id="age" name="age"><br><br>
+      
+        <button type="submit">Filter Patients</button>
+        <input type="reset">
+      </form>
+
+
+      <br><br>
+      <h1>Patient List</h1>
+      <table>
+        <tr>
+          <th>First Name</th>
+          <th>Last Name</th>
+          <th>Birthdate</th>
+          <th>Phone Number</th>
+          <th>Email</th>
+          <th>Comments</th>
+        </tr>
+        @for(patient <- patients.sortBy(_.lastName)) {
+          <tr>
+            <td>@patient.firstName</td>
+            <td>@patient.lastName</td>
+            <td>@patient.birthdate</td>
+            <td>@patient.phoneNumber</td>
+            <td>@patient.email</td>
+            <td>@patient.comments.getOrElse("")</td>
+          </tr>
+        }
+      </table>
+    </article>
+  </div>
+</section>
+}
+}
